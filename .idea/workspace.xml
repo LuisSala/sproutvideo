@@ -27,7 +27,7 @@
       <file leaf-file-name="tv.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/tv/resources/stylesheets/tv.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0">
+            <state line="9" column="28" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -42,10 +42,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="video_record.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="video_record.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/tv/fixtures/video_record.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="42" selection-start="1026" selection-end="1026" vertical-scroll-proportion="0.0">
+            <state line="40" column="1" selection-start="1131" selection-end="1131" vertical-scroll-proportion="1.1845574">
               <folding />
             </state>
           </provider>
@@ -54,16 +54,16 @@
       <file leaf-file-name="tv.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/tv/tv.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="2" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0">
+            <state line="56" column="13" selection-start="1567" selection-end="1567" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Buildfile" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Buildfile" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Buildfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="377" selection-end="377" vertical-scroll-proportion="0.32346722">
+            <state line="8" column="0" selection-start="377" selection-end="377" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -72,7 +72,7 @@
       <file leaf-file-name="core.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/tv/core.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="14" column="11" selection-start="500" selection-end="500" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -81,7 +81,7 @@
       <file leaf-file-name="video.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/tv/controllers/video.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="6" selection-start="448" selection-end="448" vertical-scroll-proportion="0.0">
+            <state line="15" column="34" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -90,7 +90,7 @@
       <file leaf-file-name="tv.handlebars" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/tv/resources/templates/tv.handlebars">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="17" selection-start="36" selection-end="36" vertical-scroll-proportion="-1.36">
+            <state line="5" column="53" selection-start="177" selection-end="177" vertical-scroll-proportion="-3.4">
               <folding />
             </state>
           </provider>
@@ -111,12 +111,13 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/apps/tv/models/video_record.js" />
-        <option value="$PROJECT_DIR$/apps/tv/fixtures/video_record.js" />
         <option value="$PROJECT_DIR$/apps/tv/controllers/video.js" />
-        <option value="$PROJECT_DIR$/apps/tv/resources/templates/tv.handlebars" />
-        <option value="$PROJECT_DIR$/apps/tv/core.js" />
-        <option value="$PROJECT_DIR$/apps/tv/tv.js" />
         <option value="$PROJECT_DIR$/Buildfile" />
+        <option value="$PROJECT_DIR$/apps/tv/core.js" />
+        <option value="$PROJECT_DIR$/apps/tv/resources/stylesheets/tv.css" />
+        <option value="$PROJECT_DIR$/apps/tv/resources/templates/tv.handlebars" />
+        <option value="$PROJECT_DIR$/apps/tv/tv.js" />
+        <option value="$PROJECT_DIR$/apps/tv/fixtures/video_record.js" />
       </list>
     </option>
   </component>
@@ -146,7 +147,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -204,8 +204,30 @@
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
+              <option name="myItemId" value="sproutvideo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sproutvideo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -230,89 +252,28 @@
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sproutvideo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sproutvideo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tv" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sproutvideo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sproutvideo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tv" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fixtures" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sproutvideo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sproutvideo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tv" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
+              <option name="myItemId" value="flowplayer" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Favorites" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="JavaScript.Libraries" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="recentsLimit" value="5" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager" selected="JavaScript Debug.SproutVideo App">
     <configuration default="true" type="JavascriptDebugSession" factoryName="Remote">
       <JSRemoteDebuggerConfigurationSettings>
-        <option name="engineId" />
+        <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSRemoteDebuggerConfigurationSettings>
       <method />
@@ -321,6 +282,7 @@
       <JSRemoteDebuggerConfigurationSettings>
         <option name="engineId" value="firefox" />
         <option name="fileUrl" value="http://localhost:4020/tv" />
+        <mapping local-file="$PROJECT_DIR$/apps/tv" url="http://localhost:4020/static/tv/en/current/source/" />
       </JSRemoteDebuggerConfigurationSettings>
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
@@ -356,15 +318,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2" y="22" width="1075" height="961" extended-state="0" />
+    <frame x="0" y="22" width="1046" height="960" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28068507" sideWeight="0.6006904" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39930955" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2886497" sideWeight="0.66820276" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33179724" sideWeight="0.9859682" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -409,54 +371,73 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/apps/tv/fixtures/video_record.js">
+    <entry file="file://$PROJECT_DIR$/Buildfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="42" selection-start="1026" selection-end="1026" vertical-scroll-proportion="0.0" />
+        <state line="8" column="0" selection-start="377" selection-end="377" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/tv/resources/stylesheets/tv.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0" />
+    <entry file="http://localhost:4020/static/sproutcore/core_foundation/en/current/stylesheet.css?1303409967">
+      <provider selected="true" editor-type-id="httpFileEditor">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/tv/resources/templates/tv.handlebars">
+    <entry file="file://$PROJECT_DIR$/apps/tv/resources/flowplayer/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="17" selection-start="36" selection-end="36" vertical-scroll-proportion="-1.36">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/tv/controllers/video.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="6" selection-start="448" selection-end="448" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/tv/models/video_record.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="552" selection-end="552" vertical-scroll-proportion="0.0">
+        <state line="26" column="0" selection-start="736" selection-end="1040" vertical-scroll-proportion="-0.7878049">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/tv/core.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="14" column="11" selection-start="500" selection-end="500" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/tv/controllers/video.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="34" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/tv/resources/templates/tv.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="53" selection-start="177" selection-end="177" vertical-scroll-proportion="-3.4">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/tv/resources/flowplayer/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="33" selection-start="235" selection-end="235" vertical-scroll-proportion="0.38418078">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/tv/models/video_record.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="552" selection-end="552" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/tv/resources/stylesheets/tv.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="28" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/tv/tv.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="2" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0">
+        <state line="56" column="13" selection-start="1567" selection-end="1567" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Buildfile">
+    <entry file="file://$PROJECT_DIR$/apps/tv/fixtures/video_record.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="377" selection-end="377" vertical-scroll-proportion="0.32346722">
+        <state line="40" column="1" selection-start="1131" selection-end="1131" vertical-scroll-proportion="1.1845574">
           <folding />
         </state>
       </provider>
