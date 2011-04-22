@@ -63,7 +63,7 @@
       <file leaf-file-name="tv.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/tv/tv.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="35" selection-start="953" selection-end="953" vertical-scroll-proportion="0.8930582">
+            <state line="74" column="9" selection-start="2139" selection-end="2139" vertical-scroll-proportion="2.3283303">
               <folding />
             </state>
           </provider>
@@ -87,10 +87,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="video.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/tv/controllers/video.js">
+      <file leaf-file-name="videos.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/tv/controllers/videos.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="9" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0">
+            <state line="18" column="0" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -99,7 +99,7 @@
       <file leaf-file-name="tv.handlebars" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/tv/resources/templates/tv.handlebars">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="503" selection-end="503" vertical-scroll-proportion="-12.92">
+            <state line="16" column="2" selection-start="479" selection-end="479" vertical-scroll-proportion="-10.88">
               <folding />
             </state>
           </provider>
@@ -124,9 +124,10 @@
         <option value="$PROJECT_DIR$/apps/tv/resources/stylesheets/tv.css" />
         <option value="$PROJECT_DIR$/apps/tv/fixtures/video_record.js" />
         <option value="$PROJECT_DIR$/Buildfile" />
-        <option value="$PROJECT_DIR$/apps/tv/resources/templates/tv.handlebars" />
         <option value="$PROJECT_DIR$/apps/tv/controllers/video.js" />
+        <option value="localhost:4020/static/sproutcore/runtime/en/current/javascript.js?1303410509" />
         <option value="$PROJECT_DIR$/apps/tv/tv.js" />
+        <option value="$PROJECT_DIR$/apps/tv/resources/templates/tv.handlebars" />
       </list>
     </option>
   </component>
@@ -266,6 +267,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sproutvideo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sproutvideo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Favorites" />
@@ -399,13 +422,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/tv/core.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="4" selection-start="500" selection-end="500" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/tv/resources/flowplayer/style.css.tmp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="25" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0">
@@ -434,6 +450,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="http://localhost:4020/static/sproutcore/runtime/en/current/javascript.js?1303410509">
+      <provider selected="true" editor-type-id="httpFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/tv/controllers/videos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Buildfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="0" selection-start="399" selection-end="399" vertical-scroll-proportion="0.0">
@@ -441,23 +469,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/tv/resources/templates/tv.handlebars">
+    <entry file="file://$PROJECT_DIR$/apps/tv/core.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="503" selection-end="503" vertical-scroll-proportion="-12.92">
+        <state line="14" column="4" selection-start="500" selection-end="500" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/tv/controllers/video.js">
+    <entry file="http://localhost:4020/static/sproutcore/core_foundation/en/current/javascript.js?1303410509">
+      <provider selected="true" editor-type-id="httpFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/tv/resources/templates/tv.handlebars">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="9" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0">
+        <state line="16" column="2" selection-start="479" selection-end="479" vertical-scroll-proportion="-10.88">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/tv/tv.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="35" selection-start="953" selection-end="953" vertical-scroll-proportion="0.8930582">
+        <state line="74" column="9" selection-start="2139" selection-end="2139" vertical-scroll-proportion="2.3283303">
           <folding />
         </state>
       </provider>

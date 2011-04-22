@@ -4,16 +4,6 @@
 // ==========================================================================
 /*globals Tv */
 
-
-Tv.VideoTemplate = SC.TemplateView.extend({
-        layerId: 'tv',
-        templateName: 'tv'
-    });
-
-Tv.VideoListView = SC.TemplateCollectionView.extend({
-    contentBinding: 'Tv.videoController'
-}); // end Tv.VideoListView
-
 SC.ready(function() {
   Tv.videosController.set('content', Tv.store.find(Tv.VideoRecord));
 
@@ -22,22 +12,15 @@ SC.ready(function() {
 
     videoPage: SC.ScrollView.design({
        layout: {top: 0, bottom: 0, left: 0, right: 0},
-       contentView: Tv.VideoTemplate
+       contentView: 'Tv.VideoTemplate'
     })
-  });
+  }); // end Tv.mainPane
 
-});
+}); // end SC.ready()
 
-Handlebars.registerHelper('video', function(id, uri) {
-  id = Handlebars.Utils.escapeExpression(id);
-  uri  = Handlebars.Utils.escapeExpression(uri);
-
-  var result = '<a href="' + uri + '" id="video-' + id + ' class="video-player"></a>';
-
-  var video = '<script>$f("video-'+ id + '", "http://sala.us/flowplayer/flowplayer-3.2.7.swf").ipad();</script>';
-
-  return new Handlebars.SafeString(result);
-});
+Tv.VideoListView = SC.TemplateCollectionView.extend({
+    contentBinding: 'Tv.videosController'
+}); // end Tv.VideoListView
 
 
 // Subclass SC-view and supply render and update method
@@ -76,3 +59,19 @@ Tv.VideoPlayer = SC.View.extend({
         this.$().attr("href", this.get("uri"));
     } // end update()
 }); // end VideoPlayer
+
+Handlebars.registerHelper('video', function(id, uri) {
+  id = Handlebars.Utils.escapeExpression(id);
+  uri  = Handlebars.Utils.escapeExpression(uri);
+
+  var result = '<a href="' + uri + '" id="video-' + id + ' class="video-player"></a>';
+
+  var video = '<script>$f("video-'+ id + '", "http://sala.us/flowplayer/flowplayer-3.2.7.swf").ipad();</script>';
+
+  return new Handlebars.SafeString(result);
+});
+
+Tv.VideoTemplate = SC.TemplatePane.append({
+        layerId: 'tv',
+        templateName: 'tv'
+});
