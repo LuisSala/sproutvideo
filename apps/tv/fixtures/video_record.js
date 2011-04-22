@@ -15,7 +15,7 @@ Tv.VideoRecord.FIXTURES = [
   {
       guid: 1,
       title:"Cat Plays Piano",
-      uri: "http://www.example.com/catpiano",
+      uri: "http://pseudo01.hddn.com/vod/demo.flowplayervod/flowplayer-960.mp4",
       description:"This is the description of a wonderful video",
       bookmarked: NO
 
@@ -24,7 +24,7 @@ Tv.VideoRecord.FIXTURES = [
   {
       guid: 2,
       title:"Cat Plays Piano",
-      uri: "http://www.example.com/catpiano",
+      uri: "http://pseudo01.hddn.com/vod/demo.flowplayervod/flowplayer-960.mp4",
       description:"This is the description of a wonderful video",
       bookmarked: NO
 
@@ -33,29 +33,10 @@ Tv.VideoRecord.FIXTURES = [
   {
       guid: 3,
       title:"Cat Plays Piano",
-      uri: "http://www.example.com/catpiano",
+      uri: "http://pseudo01.hddn.com/vod/demo.flowplayervod/flowplayer-960.mp4",
       description:"This is the description of a wonderful video",
       bookmarked: NO
 
-  },
-  // { guid: 1,
-  //   firstName: "Michael",
-  //   lastName: "Scott" },
-  //
-  // { guid: 2,
-  //   firstName: "Dwight",
-  //   lastName: "Schrute" },
-  //
-  // { guid: 3,
-  //   firstName: "Jim",
-  //   lastName: "Halpert" },
-  //
-  // { guid: 4,
-  //   firstName: "Pam",
-  //   lastName: "Beesly" },
-  //
-  // { guid: 5,
-  //   firstName: "Ryan",
-  //   lastName: "Howard" }
+  }
 
 ];

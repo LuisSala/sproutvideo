@@ -1,5 +1,13 @@
 <h1>SproutTV</h1>
+<div id="playlist">
+{{#collection Tv.VideoListView}}
+  <p class="video-title">{{content.title}}</p>
+  <p class="video-description">{{content.description}}</p>
 
-{{#collection Tv.}}
-  {{content.title}}
+
+  {{view Tv.VideoPlayer uri=content.uri}}
+
+
 {{/collection}}
+</div>
+

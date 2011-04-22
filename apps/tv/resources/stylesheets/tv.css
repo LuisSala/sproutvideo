@@ -2,3 +2,9 @@
   position: relative;
   overflow: visible;
 }
+
+.video-player{
+    display:block;
+    width:520px;
+    height:330px
+}
