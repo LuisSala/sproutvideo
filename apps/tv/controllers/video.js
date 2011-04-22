@@ -10,9 +10,9 @@
 
   @extends SC.Object
 */
-Tv.videoController = SC.ArrayController.create(
+Tv.videosController = SC.ArrayController.create(
 /** @scope Tv.videoController.prototype */ {
 
   // TODO: Add your own code here.
 
-}) ;
+}); // end Tv.videoController

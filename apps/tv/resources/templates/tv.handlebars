@@ -1,13 +1,19 @@
-<h1>SproutTV</h1>
+<div class="container container_3">
+
+<h1 class="grid_3">SproutTV</h1>
+
+<div class='clear'>&nbsp;</div>
+
 <div id="playlist">
-{{#collection Tv.VideoListView}}
-  <p class="video-title">{{content.title}}</p>
-  <p class="video-description">{{content.description}}</p>
-
-
-  {{view Tv.VideoPlayer uri=content.uri}}
-
-
+{{#collection Tv.VideoListView class="video-list" itemClass="video-item"}}
+    <div class='grid_2'>
+        {{view Tv.VideoPlayer uri=content.uri}}
+    </div>
+    <div class='grid_1'>
+        <p class="video-title">{{content.title}}</p>
+        <p class="video-description">{{content.description}}</p>
+    </div>
+    <div class='clear'>&nbsp;</div>
 {{/collection}}
 </div>
-
+</div>

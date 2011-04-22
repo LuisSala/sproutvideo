@@ -37,6 +37,143 @@ Tv.VideoRecord.FIXTURES = [
       description:"This is the description of a wonderful video",
       bookmarked: NO
 
+  },
+  {
+      guid: 4,
+      title:"Cat Plays Piano",
+      uri: "http://pseudo01.hddn.com/vod/demo.flowplayervod/flowplayer-960.mp4",
+      description:"This is the description of a wonderful video",
+      bookmarked: NO
+
+  },
+
+  {
+      guid: 5,
+      title:"Cat Plays Piano",
+      uri: "http://pseudo01.hddn.com/vod/demo.flowplayervod/flowplayer-960.mp4",
+      description:"This is the description of a wonderful video",
+      bookmarked: NO
+
+  },
+
+  {
+      guid: 6,
+      title:"Cat Plays Piano",
+      uri: "http://pseudo01.hddn.com/vod/demo.flowplayervod/flowplayer-960.mp4",
+      description:"This is the description of a wonderful video",
+      bookmarked: NO
+
+  },
+  {
+      guid: 7,
+      title:"Cat Plays Piano",
+      uri: "http://pseudo01.hddn.com/vod/demo.flowplayervod/flowplayer-960.mp4",
+      description:"This is the description of a wonderful video",
+      bookmarked: NO
+
+  },
+
+  {
+      guid: 8,
+      title:"Cat Plays Piano",
+      uri: "http://pseudo01.hddn.com/vod/demo.flowplayervod/flowplayer-960.mp4",
+      description:"This is the description of a wonderful video",
+      bookmarked: NO
+
+  },
+  {
+      guid: 9,
+      title:"Cat Plays Piano",
+      uri: "http://pseudo01.hddn.com/vod/demo.flowplayervod/flowplayer-960.mp4",
+      description:"This is the description of a wonderful video",
+      bookmarked: NO
+
+  },
+  {
+      guid: 10,
+      title:"Cat Plays Piano",
+      uri: "http://pseudo01.hddn.com/vod/demo.flowplayervod/flowplayer-960.mp4",
+      description:"This is the description of a wonderful video",
+      bookmarked: NO
+
+  },
+  {
+      guid: 11,
+      title:"Cat Plays Piano",
+      uri: "http://pseudo01.hddn.com/vod/demo.flowplayervod/flowplayer-960.mp4",
+      description:"This is the description of a wonderful video",
+      bookmarked: NO
+
+  },
+
+  {
+      guid: 12,
+      title:"Cat Plays Piano",
+      uri: "http://pseudo01.hddn.com/vod/demo.flowplayervod/flowplayer-960.mp4",
+      description:"This is the description of a wonderful video",
+      bookmarked: NO
+
+  },
+
+  {
+      guid: 13,
+      title:"Cat Plays Piano",
+      uri: "http://pseudo01.hddn.com/vod/demo.flowplayervod/flowplayer-960.mp4",
+      description:"This is the description of a wonderful video",
+      bookmarked: NO
+
+  },
+  {
+      guid: 14,
+      title:"Cat Plays Piano",
+      uri: "http://pseudo01.hddn.com/vod/demo.flowplayervod/flowplayer-960.mp4",
+      description:"This is the description of a wonderful video",
+      bookmarked: NO
+
+  },
+
+  {
+      guid: 15,
+      title:"Cat Plays Piano",
+      uri: "http://pseudo01.hddn.com/vod/demo.flowplayervod/flowplayer-960.mp4",
+      description:"This is the description of a wonderful video",
+      bookmarked: NO
+
+  },
+
+  {
+      guid: 16,
+      title:"Cat Plays Piano",
+      uri: "http://pseudo01.hddn.com/vod/demo.flowplayervod/flowplayer-960.mp4",
+      description:"This is the description of a wonderful video",
+      bookmarked: NO
+
+  },
+  {
+      guid: 17,
+      title:"Cat Plays Piano",
+      uri: "http://pseudo01.hddn.com/vod/demo.flowplayervod/flowplayer-960.mp4",
+      description:"This is the description of a wonderful video",
+      bookmarked: NO
+
+  },
+
+  {
+      guid: 18,
+      title:"Cat Plays Piano",
+      uri: "http://pseudo01.hddn.com/vod/demo.flowplayervod/flowplayer-960.mp4",
+      description:"This is the description of a wonderful video",
+      bookmarked: NO
+
+  },
+
+  {
+      guid: 19,
+      title:"Cat Plays Piano",
+      uri: "http://pseudo01.hddn.com/vod/demo.flowplayervod/flowplayer-960.mp4",
+      description:"This is the description of a wonderful video",
+      bookmarked: NO
+
   }
 
 ];

@@ -19,4 +19,4 @@ Tv.VideoRecord = SC.Record.extend(
     description: SC.Record.attr(String),
     bookmarked: SC.Record.attr(Boolean)
 
-}) ;
+});

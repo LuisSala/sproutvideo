@@ -4,23 +4,29 @@
 // ==========================================================================
 /*globals Tv */
 
-//Tv = SC.Application.create();
 
-SC.ready(function() {
-  Tv.videoController.set('content', Tv.store.find(Tv.VideoRecord));
-
-  Tv.mainPane = SC.TemplatePane.append({
-    layerId: 'tv',
-    templateName: 'tv'
-  });
-
-
-
-});
+Tv.VideoTemplate = SC.TemplateView.extend({
+        layerId: 'tv',
+        templateName: 'tv'
+    });
 
 Tv.VideoListView = SC.TemplateCollectionView.extend({
     contentBinding: 'Tv.videoController'
 }); // end Tv.VideoListView
+
+SC.ready(function() {
+  Tv.videosController.set('content', Tv.store.find(Tv.VideoRecord));
+
+  Tv.mainPane = SC.MainPane.design({
+    childViews: 'videoPage'.w(),
+
+    videoPage: SC.ScrollView.design({
+       layout: {top: 0, bottom: 0, left: 0, right: 0},
+       contentView: Tv.VideoTemplate
+    })
+  });
+
+});
 
 Handlebars.registerHelper('video', function(id, uri) {
   id = Handlebars.Utils.escapeExpression(id);
@@ -69,7 +75,4 @@ Tv.VideoPlayer = SC.View.extend({
 		sc_super();
         this.$().attr("href", this.get("uri"));
     } // end update()
-
-
-
-});
+}); // end VideoPlayer
