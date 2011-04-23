@@ -46,14 +46,16 @@ Tv.VideoPlayer = SC.View.extend({
                         autoPlay: false,
                         autoBuffering: true
                     }
-                }).ipad({simulateiDevice: true});
+                }); //.ipad({simulateiDevice: true});
             }, 0);
     }, // end didCreateLayer()
 
     render: function(context) {
 		sc_super();
         context.attr("href", this.get("uri"));
-        context.begin("img").attr("src", this.get("splash")).end();
+        context.attr("style", "background-image:url("+this.get("splash")+")");
+        //context.begin("img").attr("src", this.get("splash")).end();
+        context.begin("img").attr("src", "http://flowplayer.org/img/player/btn/play_large.png").end();
     }, // end render()
 
     update: function(context) {
