@@ -1,11 +1,18 @@
-<div class="container container_4">
+<div class="container container_5">
 
-<div class="grid_1">
+<div class="grid_2">
 
 <h1 class="logo">SproutTV</h1>
-<div>SCHEDULE</div>
+<h2 class="schedule-header">On Tonight</h2>
+{{#collection "Tv.ScheduleView" class="schedule" itemClass="schedule-item"}}
+    <span class="schedule-time">{{content.time}}</span>
+    <div class="schedule-info">
+        <h3 class="schedule-title">{{content.title}}</h3>
+        <p class="schedule-blurb">{{content.blurb}}</p>
+    </div>
+{{/collection}}
 </div>
-<div class="grid_3">
+<div class="grid_3 featured">
     FEATURED
 </div>
 <div class='clear'>&nbsp;</div>
@@ -15,8 +22,8 @@
     <div class='grid_2 centered'>
         {{view "Tv.VideoPlayer" videoUrl=content.url previewUrl=content.previewUrl}}
     </div>
-    <div class='grid_2'>
-        <p class="video-title">{{content.title}}</p>
+    <div class='grid_3'>
+        <h2 class="video-title">{{content.title}}</h2>
         <p class="video-description">{{content.description}}</p>
     </div>
     <div class='clear'>&nbsp;</div>

@@ -6,6 +6,7 @@
 
 SC.ready(function() {
   Tv.videosController.set('content', Tv.store.find(Tv.VideoRecord));
+  Tv.scheduleController.set('content', Tv.store.find(Tv.Schedule));
 
   Tv.mainPane = SC.MainPane.design({
     childViews: 'videoPage'.w(),
@@ -31,6 +32,10 @@ Tv.VideoListView = SC.TemplateCollectionView.extend({
 
 }); // end Tv.VideoListView
 
+Tv.ScheduleView = SC.TemplateCollectionView.extend({
+    contentBinding: 'Tv.scheduleController'
+
+}); // end Tv.VideoListView
 
 // Subclass SC-view and supply render and update method
 Tv.VideoPlayer = SC.View.extend({
