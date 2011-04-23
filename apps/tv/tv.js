@@ -9,7 +9,6 @@ SC.ready(function() {
 
   Tv.mainPane = SC.MainPane.design({
     childViews: 'videoPage'.w(),
-    defaultResponder: 'Tv.START',
 
     videoPage: SC.ScrollView.extend({
        layout: {top: 0, bottom: 0, left: 0, right: 0},
@@ -18,6 +17,7 @@ SC.ready(function() {
     })
   }); // end Tv.mainPane
 
+  // Append pane to document.
   Tv.mainPane.create().append();
 }); // end SC.ready()
 

@@ -27,7 +27,7 @@
       <file leaf-file-name="tv.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/tv/resources/stylesheets/tv.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="1" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0">
+            <state line="23" column="25" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -51,19 +51,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tv.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="tv.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apps/tv/tv.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="59" selection-start="1131" selection-end="1131" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="start.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/tv/states/start.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="39" selection-start="534" selection-end="534" vertical-scroll-proportion="0.0">
+            <state line="10" column="32" selection-start="388" selection-end="388" vertical-scroll-proportion="0.3231939">
               <folding />
             </state>
           </provider>
@@ -96,10 +87,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tv.handlebars" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="tv.handlebars" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/apps/tv/resources/templates/tv.handlebars">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="31" selection-start="189" selection-end="189" vertical-scroll-proportion="0.33932135">
+            <state line="14" column="31" selection-start="319" selection-end="319" vertical-scroll-proportion="-9.52">
               <folding />
             </state>
           </provider>
@@ -123,12 +114,12 @@
         <option value="$PROJECT_DIR$/apps/tv/controllers/video.js" />
         <option value="localhost:4020/static/sproutcore/runtime/en/current/javascript.js?1303410509" />
         <option value="$PROJECT_DIR$/apps/tv/states/start.js" />
-        <option value="$PROJECT_DIR$/apps/tv/resources/stylesheets/tv.css" />
         <option value="$PROJECT_DIR$/Buildfile" />
-        <option value="$PROJECT_DIR$/apps/tv/tv.js" />
         <option value="$PROJECT_DIR$/apps/tv/models/video_record.js" />
         <option value="$PROJECT_DIR$/apps/tv/fixtures/video_record.js" />
         <option value="$PROJECT_DIR$/apps/tv/resources/templates/tv.handlebars" />
+        <option value="$PROJECT_DIR$/apps/tv/resources/stylesheets/tv.css" />
+        <option value="$PROJECT_DIR$/apps/tv/tv.js" />
       </list>
     </option>
   </component>
@@ -329,14 +320,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1048" height="950" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32983682" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28710938" sideWeight="0.67016315" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28710938" sideWeight="0.67016315" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26573426" sideWeight="0.99902344" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -411,44 +402,9 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/tv/resources/stylesheets/tv.css">
+    <entry file="file://$PROJECT_DIR$/apps/tv/controllers/videos.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="1" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/tv/states/start.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="39" selection-start="534" selection-end="534" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Buildfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="99" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/tv/tv.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="59" selection-start="1131" selection-end="1131" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/tv/models/video_record.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="7" selection-start="439" selection-end="439" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/tv/fixtures/video_record.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="3" selection-start="1899" selection-end="1899" vertical-scroll-proportion="-7.0384617">
+        <state line="18" column="0" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -460,16 +416,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/tv/controllers/videos.js">
+    <entry file="file://$PROJECT_DIR$/apps/tv/states/start.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="475" selection-end="475" vertical-scroll-proportion="0.0">
+        <state line="21" column="39" selection-start="534" selection-end="534" vertical-scroll-proportion="0.581749">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/tv/fixtures/video_record.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="3" selection-start="1899" selection-end="1899" vertical-scroll-proportion="-7.0384617">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/tv/models/video_record.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="7" selection-start="439" selection-end="439" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/tv/resources/templates/tv.handlebars">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="31" selection-start="189" selection-end="189" vertical-scroll-proportion="0.33932135">
+        <state line="14" column="31" selection-start="319" selection-end="319" vertical-scroll-proportion="-9.52">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Buildfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="99" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/tv/resources/stylesheets/tv.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="25" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/tv/tv.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="32" selection-start="388" selection-end="388" vertical-scroll-proportion="0.3231939">
           <folding />
         </state>
       </provider>
