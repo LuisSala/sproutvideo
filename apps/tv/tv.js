@@ -43,10 +43,10 @@ Tv.VideoPlayer = SC.View.extend({
         this.invokeLater(function(){
                 $f(id, "http://sala.us/flowplayer/flowplayer-3.2.7.swf", {
                     clip:  {
-                        autoPlay: false,
+                        autoPlay: true,
                         autoBuffering: true
                     }
-                }); //.ipad({simulateiDevice: true});
+                }).ipad({simulateiDevice: false});
             }, 0);
     }, // end didCreateLayer()
 
