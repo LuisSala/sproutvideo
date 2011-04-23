@@ -1,3 +1,7 @@
+body {
+    /*background-color: #00a5ee !important;*/
+}
+
 .sc-view {
   position: relative;
   overflow: visible;
@@ -14,12 +18,14 @@
 
 .featured {
     background-color: #edf1f7;
+    margin-right: 0px;
     height: 330px;
 }
 
 .schedule {
     margin-left: 10px !important;
     max-width: 280px !important;
+    background-color: #fff;
 }
 .schedule-item {
     clear: both;
@@ -85,6 +91,18 @@
     min-width: 310px;
 }
 
+.separator {
+    background-color: #00a5ee;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.separator h2 {
+    color: #fff;
+    font-size: 1.8em;
+    font-weight: bold;
+    text-align: center;
+}
 /*
 	Variable Grid System (Fluid Version).
 	Learn more ~ http://www.spry-soft.com/grids/
