@@ -12,10 +12,10 @@
 
 <div id="playlist">
 {{#collection "Tv.VideoListView" class="video-list" itemClass="video-item"}}
-    <div class='grid_2'>
-        {{view "Tv.VideoPlayer" uri=content.uri splash=content.previewUrl}}
-    </div>
     <div class='grid_1'>
+        {{view "Tv.VideoPlayer" videoUrl=content.url previewUrl=content.previewUrl}}
+    </div>
+    <div class='grid_2'>
         <p class="video-title">{{content.title}}</p>
         <p class="video-description">{{content.description}}</p>
     </div>
