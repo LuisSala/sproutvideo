@@ -9,6 +9,7 @@ SC.ready(function() {
 
   Tv.mainPane = SC.MainPane.design({
     childViews: 'videoPage'.w(),
+    defaultResponder: 'Tv.START',
 
     videoPage: SC.ScrollView.design({
        layout: {top: 0, bottom: 0, left: 0, right: 0},
@@ -16,11 +17,10 @@ SC.ready(function() {
        contentView: 'Tv.VideoTemplate'
     })
   }); // end Tv.mainPane
-
 }); // end SC.ready()
-
 Tv.VideoListView = SC.TemplateCollectionView.extend({
     contentBinding: 'Tv.videosController'
+
 }); // end Tv.VideoListView
 
 
@@ -33,7 +33,7 @@ Tv.VideoPlayer = SC.View.extend({
 
     classNames: ["video-player"],
 
-    displayProperties: ["uri"],
+    displayProperties: ["uri", "splash"],
 
     didCreateLayer: function(){
         var id = this.get("layerId");
@@ -46,13 +46,14 @@ Tv.VideoPlayer = SC.View.extend({
                         autoPlay: false,
                         autoBuffering: true
                     }
-                }).ipad();
+                }).ipad({simulateiDevice: true});
             }, 0);
     }, // end didCreateLayer()
 
     render: function(context) {
 		sc_super();
         context.attr("href", this.get("uri"));
+        context.begin("img").attr("src", this.get("splash")).end();
     }, // end render()
 
     update: function(context) {
@@ -60,17 +61,6 @@ Tv.VideoPlayer = SC.View.extend({
         this.$().attr("href", this.get("uri"));
     } // end update()
 }); // end VideoPlayer
-
-Handlebars.registerHelper('video', function(id, uri) {
-  id = Handlebars.Utils.escapeExpression(id);
-  uri  = Handlebars.Utils.escapeExpression(uri);
-
-  var result = '<a href="' + uri + '" id="video-' + id + ' class="video-player"></a>';
-
-  var video = '<script>$f("video-'+ id + '", "http://sala.us/flowplayer/flowplayer-3.2.7.swf").ipad();</script>';
-
-  return new Handlebars.SafeString(result);
-});
 
 Tv.VideoTemplate = SC.TemplatePane.append({
         layerId: 'tv',

@@ -16,6 +16,7 @@ Tv.VideoRecord.FIXTURES = [
       guid: 1,
       title:"Cat Plays Piano",
       uri: "http://pseudo01.hddn.com/vod/demo.flowplayervod/flowplayer-960.mp4",
+      previewUrl: "http://flowplayer.org/img/demos/70930.jpg",
       description:"This is the description of a wonderful video",
       bookmarked: NO
 
@@ -25,6 +26,7 @@ Tv.VideoRecord.FIXTURES = [
       guid: 2,
       title:"Cat Plays Piano",
       uri: "http://pseudo01.hddn.com/vod/demo.flowplayervod/flowplayer-960.mp4",
+      previewUrl: "http://flowplayer.org/img/demos/70930.jpg",
       description:"This is the description of a wonderful video",
       bookmarked: NO
 
@@ -34,6 +36,7 @@ Tv.VideoRecord.FIXTURES = [
       guid: 3,
       title:"Cat Plays Piano",
       uri: "http://pseudo01.hddn.com/vod/demo.flowplayervod/flowplayer-960.mp4",
+      previewUrl: "http://flowplayer.org/img/demos/70930.jpg",
       description:"This is the description of a wonderful video",
       bookmarked: NO
 
@@ -42,6 +45,7 @@ Tv.VideoRecord.FIXTURES = [
       guid: 4,
       title:"Cat Plays Piano",
       uri: "http://pseudo01.hddn.com/vod/demo.flowplayervod/flowplayer-960.mp4",
+      previewUrl: "http://flowplayer.org/img/demos/70930.jpg",
       description:"This is the description of a wonderful video",
       bookmarked: NO
 
@@ -51,12 +55,13 @@ Tv.VideoRecord.FIXTURES = [
       guid: 5,
       title:"Cat Plays Piano",
       uri: "http://pseudo01.hddn.com/vod/demo.flowplayervod/flowplayer-960.mp4",
+      previewUrl: "http://flowplayer.org/img/demos/70930.jpg",
       description:"This is the description of a wonderful video",
       bookmarked: NO
 
   },
-
-  {
+  /*
+  ,{
       guid: 6,
       title:"Cat Plays Piano",
       uri: "http://pseudo01.hddn.com/vod/demo.flowplayervod/flowplayer-960.mp4",
@@ -175,5 +180,5 @@ Tv.VideoRecord.FIXTURES = [
       bookmarked: NO
 
   }
-
+   */
 ];

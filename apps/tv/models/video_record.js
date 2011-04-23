@@ -16,6 +16,7 @@ Tv.VideoRecord = SC.Record.extend(
 
     title: SC.Record.attr(String),
     uri: SC.Record.attr(String),
+    previewUrl: SC.Record.attr(String),
     description: SC.Record.attr(String),
     bookmarked: SC.Record.attr(Boolean)
 

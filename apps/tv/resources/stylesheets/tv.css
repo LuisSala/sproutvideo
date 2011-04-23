@@ -11,6 +11,13 @@
     height: 190px;
 }
 
+.video-player img {
+    width: 300px;
+    height: 190px;
+}
+.video-item {
+    margin-bottom: 10px !important;
+}
 /*
 	Variable Grid System (Fluid Version).
 	Learn more ~ http://www.spry-soft.com/grids/
