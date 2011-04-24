@@ -1,6 +1,6 @@
 # ===========================================================================
-# Project:   Sproutvideo
-# Copyright: ©2011 My Company, Inc.
+# Project:   SproutvVideo
+# Copyright: ©2011 Strobe, Inc.
 # ===========================================================================
 
 # Add initial buildfile information here

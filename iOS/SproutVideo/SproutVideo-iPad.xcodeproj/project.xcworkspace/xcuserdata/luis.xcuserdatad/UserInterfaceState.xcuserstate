@@ -4586,7 +4586,7 @@
 		<string>DVTIdentifier</string>
 		<string>DVTViewMagnitude</string>
 		<string></string>
-		<real>632</real>
+		<real>583</real>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -5014,7 +5014,7 @@
 		<string>IDESCMStatusFilteringEnabled</string>
 		<string>IDESelectedObjects</string>
 		<string>IDEExpandedItemsSet</string>
-		<string>{{0, 0}, {259, 812}}</string>
+		<string>{{0, 0}, {259, 763}}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -5242,7 +5242,7 @@
 				</dict>
 			</array>
 		</dict>
-		<real>1192</real>
+		<real>1134</real>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -5772,7 +5772,7 @@
 				</dict>
 			</array>
 		</dict>
-		<real>1022</real>
+		<real>964</real>
 		<string>Xcode3BuildSettingsEditor</string>
 		<dict>
 			<key>$class</key>
@@ -5811,7 +5811,7 @@
 			</dict>
 		</dict>
 		<string>file://localhost/Users/luis/Development/Projects/sproutvideo/iOS/SproutVideo/SproutVideo-iPad.xcodeproj/</string>
-		<real>325306481.11867499</real>
+		<real>325354518.12202001</real>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -6208,7 +6208,7 @@
 				</dict>
 			</array>
 		</dict>
-		<string>{{0, 0}, {1192, 719}}</string>
+		<string>{{0, 0}, {1134, 670}}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -6367,7 +6367,7 @@
 			</array>
 		</dict>
 		<string>VariablesView</string>
-		<real>941</real>
+		<real>883</real>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -6467,7 +6467,7 @@
 				</dict>
 			</array>
 		</dict>
-		<real>941</real>
+		<real>883</real>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -6589,7 +6589,7 @@
 			</array>
 		</dict>
 		<string>IDEEditor</string>
-		<real>741</real>
+		<real>692</real>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -6789,7 +6789,7 @@
 				</dict>
 			</array>
 		</dict>
-		<string>{{26, 86}, {1452, 932}}</string>
+		<string>{{3, 145}, {1394, 883}}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -7451,7 +7451,7 @@
 				</dict>
 			</array>
 		</dict>
-		<real>1022</real>
+		<real>964</real>
 		<string>Xcode3BuildSettingsEditor</string>
 		<dict>
 			<key>$class</key>
@@ -7489,7 +7489,7 @@
 				<integer>609</integer>
 			</dict>
 		</dict>
-		<real>325306481.11700302</real>
+		<real>325354518.120529</real>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -10071,7 +10071,7 @@
 			<key>$classname</key>
 			<string>NSDate</string>
 		</dict>
-		<string>Today at 7:52 PM</string>
+		<string>Yesterday at 7:52 PM</string>
 		<integer>106</integer>
 		<string>PhoneGapLib</string>
 		<dict>

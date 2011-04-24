@@ -1,6 +1,6 @@
 // ==========================================================================
 // Project:   Tv.scheduleController Unit Test
-// Copyright: ©2011 My Company, Inc.
+// Copyright: ©2011 Strobe, Inc.
 // ==========================================================================
 /*globals Tv module test ok equals same stop start */
 
