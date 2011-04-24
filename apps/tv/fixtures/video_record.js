@@ -14,49 +14,49 @@ Tv.VideoRecord.FIXTURES = [
 
   {
       guid: 1,
-      title:"Cat Plays Piano",
-      url: "http://pseudo01.hddn.com/vod/demo.flowplayervod/flowplayer-960.mp4",
-      previewUrl: "http://flowplayer.org/img/demos/70930.jpg",
-      description:"Non maximo publicate essentialmente es, non vices tamben national un, via e instruite traduction. Sitos regula quotidian que al. Non ample vostre qualcunque ma, debe regula sed es, web celo libro pardona in. Que iala publication su. In iste anque nos, scriber anteriormente pro al. De con resultato interlingua, le latino nostre abstracte pan, al pan como movimento.",
+      title:"Superman: Eleventh Hour (1942)",
+      url: "http://www.archive.org/download/superman_eleventh_hour/superman_eleventh_hour_512kb.mp4",
+      previewUrl: "http://www.archive.org/download/superman_eleventh_hour/superman_eleventh_hour.thumbs/superman_eleventh_hour_000030.jpg",
+      description:"Superman is responsible for several acts of sabotage at the Yokohama Navy Yard in Japan. Lois Lane is held hostage but Superman saves the day. Animation by William Bowsky and William Henning. Music by Sammy Timberg. Produced in 1942.",
       bookmarked: NO
 
   },
 
   {
       guid: 2,
-      title:"Cat Plays Piano",
-      url: "http://blip.tv/file/get/Achievementhunter-HaloReachFailsOfTheWeakVolume31FunnyHaloBloopersAnd603.m4v",
-      previewUrl: "http://flowplayer.org/img/demos/70930.jpg",
-      description:"Via signo ascoltar il, libera contos pro ha. Non europee appellate su, se uso studio scientia, su duo americano excellente immediatemente. Sia tres cadeva debitores es, un que esser populos simplificate. Su duo medio nomina capital, texto europa methodicamente es qui.",
+      title:"Superman: Electric Earthquake (1942)",
+      url: "http://www.archive.org/download/superman_electric_earthquake/superman_electric_earthquake_512kb.mp4",
+      previewUrl: "http://www.archive.org/download/superman_electric_earthquake/superman_electric_earthquake.thumbs/superman_electric_earthquake_000030.jpg",
+      description:"A mad scientist attempts to blow up Manhattan. Lois Lane investigates and Superman saves the day. Animation by Steve Muffati and Arnold Gillespie, story by Seymour Kneitel and Isadore Sparber, music by Sammy Timberg. Produced in 1942.",
       bookmarked: NO
 
   },
 
   {
       guid: 3,
-      title:"Cat Plays Piano",
-      url: "http://pseudo01.hddn.com/vod/demo.flowplayervod/flowplayer-960.mp4",
-      previewUrl: "http://flowplayer.org/img/demos/70930.jpg",
-      description:"O etiam publication web, se uso usos signo publication. Via tu laborava avantiate, ma nos toto americano. Non libere historia ma. Veni servi maximo qui e, via e peano campo laborava. Sitos regula pro un.",
+      title:"Superman: The Mechanical Monsters (1941)",
+      url: "http://www.archive.org/download/superman_the_mechanical_monsters/superman_the_mechanical_monsters_512kb.mp4",
+      previewUrl: "http://www.archive.org/download/superman_the_mechanical_monsters/superman_the_mechanical_monsters.thumbs/superman_the_mechanical_monsters_000030.jpg",
+      description:"A mad scientist unleashes robots to rob banks and loot museums. Superman saves the day. Animation by Steve Muffati and George Germanetti. Music by Sammy Timberg. Produced in 1941.",
       bookmarked: NO
 
   },
   {
       guid: 4,
-      title:"Cat Plays Piano",
-      url: "http://pseudo01.hddn.com/vod/demo.flowplayervod/flowplayer-960.mp4",
-      previewUrl: "http://flowplayer.org/img/demos/70930.jpg",
-      description:"Il duo ille ample scriber. Al que celo philologos technologia, via medio europee historia ha. Usos original dictionario es non, europee durante anteriormente qui il. Con es lingua capital, que su nostre instituto. Se quales moderne avantiate del, da uso medio spatios. Tote resultato sanctificate da nos, su sanctificate anteriormente web.",
+      title:"The Mummy Strikes (1943)",
+      url: "http://www.archive.org/download/mummy_strikes/mummy_strikes_512kb.mp4",
+      previewUrl: "http://www.archive.org/download/mummy_strikes/mummy_strikes.thumbs/mummy_strikes_000030.jpg",
+      description:"While investigating an egyptologist's mysterious death, Superman must battle dangerous mummies.",
       bookmarked: NO
 
   },
 
   {
       guid: 5,
-      title:"Cat Plays Piano",
-      url: "http://pseudo01.hddn.com/vod/demo.flowplayervod/flowplayer-960.mp4",
-      previewUrl: "http://flowplayer.org/img/demos/70930.jpg",
-      description:"De qui denominator independente. Un prime subjecto sia, o lateres paternoster continentes duo, basate finalmente sed in. Gode nostre introduction uso tu, nomina mundial interlinguistica sed le. E malo celos del, mundial quotidian occidental web tu, tote membros uso tu.",
+      title:"The Arctic Giant (1942)",
+      url: "http://www.archive.org/download/secret_agent/secret_agent_512kb.mp4",
+      previewUrl: "http://www.archive.org/download/secret_agent/secret_agent.thumbs/secret_agent_000030.jpg",
+      description:"Superman versus a thawed-out Tyrannosaurus.",
       bookmarked: NO
 
   },

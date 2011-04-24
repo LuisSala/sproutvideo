@@ -62,7 +62,7 @@ Tv.VideoPlayer = SC.View.extend({
                         autoPlay: true,
                         autoBuffering: true
                     }
-                }).ipad({simulateiDevice: true});
+                }).ipad({simulateiDevice: false});
             }, 0);
     }, // end didCreateLayer()
 
@@ -80,7 +80,7 @@ Tv.VideoPlayer = SC.View.extend({
         context.attr("style", "background-image:url("+this.get("previewUrl")+")");
 
         // Insert <IMG> tag with play button image.
-        context.begin("img").attr("src", "http://flowplayer.org/img/player/btn/play_large.png").end();
+        context.begin("img").attr("src", sc_static("resources/images/play_large")).end();
     }, // end render()
 
     update: function(context) {

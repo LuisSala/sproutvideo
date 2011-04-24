@@ -16,10 +16,29 @@ body {
     color: #fff;
 }
 
+.feature-header {
+    height: 70px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #8ed16d;
+    font-size: 3.5em !important;
+    color: #fff;
+}
+
 .featured {
     background-color: #edf1f7;
     margin-right: 0px;
     height: 330px;
+}
+
+.featured a{
+    display:block;
+    /*width:520px;
+    height:330px*/
+    width: 402px;
+    height: 255px;
+    align:center;
+    margin: auto;
 }
 
 .schedule {
