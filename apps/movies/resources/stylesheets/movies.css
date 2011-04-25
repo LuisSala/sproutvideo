@@ -30,3 +30,19 @@
     padding-top: 116px;
     width: 160px;
 }
+
+#videoplayer{
+    background-color: #811;
+    min-width: 600px;
+    width: 100%;
+}
+
+.video-player{
+    width: 600px;
+    height: 381px;
+    text-align: center;
+    background-color: #888;
+    margin-left: 17%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
