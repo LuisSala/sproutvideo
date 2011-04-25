@@ -1,0 +1,7 @@
+{{#collection "Movies.titlesCollectionView" class="video-list" itemClass="video-item"}}
+<div>
+{{view "Movies.previewImageView" previewUrl=content.previewUrl videoUrl=content.url}}
+</div>
+<div class="video-title">{{content.title}}</div>
+
+{{/collection}}

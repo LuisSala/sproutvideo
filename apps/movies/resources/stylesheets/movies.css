@@ -1,0 +1,32 @@
+.sc-main {
+    background-color: #000 !important;
+    color: #fff !important;
+}
+
+.info-view {
+    background-color: #404040;
+}
+
+.video-item{
+    display: block;
+    clear: none;
+    float: left;
+    margin-right: 10px;
+}
+
+.video-list {
+    width: 5000px;
+    height: 180px;
+}
+
+.video-preview img {
+    float: left;
+}
+
+.video-title span{
+    float:right;
+    text-align: center;
+    font-size: 10px;
+    padding-top: 116px;
+    width: 160px;
+}

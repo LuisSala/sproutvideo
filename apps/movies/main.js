@@ -25,6 +25,8 @@ Movies.main = function main() {
   // TODO: Set the content property on your primary controller
   // ex: Movies.contactsController.set('content',Movies.contacts);
 
+  Movies.titlesController.set('content', Movies.store.find(Movies.Title));
 } ;
 
 function main() { Movies.main(); }
+//SC.ready(Movies.main());

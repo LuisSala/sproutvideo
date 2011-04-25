@@ -15,7 +15,7 @@
 //
 // NOTE: if you want to change the theme this one is based on, don't
 // forget to change the :css_theme property in your buildfile.
-Movies.Theme = SC.AceTheme.create({
+/*Movies.Theme = SC.AceTheme.create({
   name: 'movies'
 });
 
@@ -25,3 +25,4 @@ SC.Theme.addTheme(Movies.Theme);
 // Setting it as the default theme makes every pane SproutCore
 // creates default to this theme unless otherwise specified.
 SC.defaultTheme = 'movies';
+*/
