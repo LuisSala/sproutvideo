@@ -26,7 +26,7 @@ Movies.main = function main() {
   // ex: Movies.contactsController.set('content',Movies.contacts);
 
   Movies.titlesController.set('content', Movies.store.find(Movies.Title));
+  Movies.selectedTitleController.set('content', Movies.titlesController.get('firstObject'));
 } ;
 
 function main() { Movies.main(); }
-//SC.ready(Movies.main());

@@ -11,16 +11,20 @@ Movies.mainPage = SC.Page.design({
   // Add childViews to this pane for views to display immediately on page 
   // load.
   mainPane: SC.MainPane.design({
-    childViews: 'videoPlayerView infoView titlesView'.w(),
+    childViews: 'centerView infoView titlesView'.w(),
     
-    videoPlayerView: SC.View.design({
+    centerView: SC.View.design({
         layout: { top:0, bottom: 170, left:0, right:0},
-        childViews: "videoTemplateView".w(),
+        childViews: "videoContainerView".w(),
 
-        videoTemplateView: SC.TemplateView.extend({
+        videoContainerView: SC.View.design({
+            childViews: 'videoTemplateView'.w(),
+            layout: {centerX:0, centerY:0, width:600, height: 381},
+              videoTemplateView: SC.TemplateView.extend({
               templateName: 'videoplayer',
               layerId: 'videoplayer'
             }) // end videoTemplateView
+        })
     }), // end videoPlayerView
 
     infoView: SC.View.design({
@@ -29,7 +33,8 @@ Movies.mainPage = SC.Page.design({
       childViews: "infoTemplateView".w(),
       infoTemplateView: SC.TemplateView.extend({
           templateName: 'infobar',
-          layerId: 'infobar'
+          layerId: 'infobar',
+          contentBinding: 'Movies.selectedTitleController'
         }) // end infoTemplateView
     }), // end infoView
 
@@ -49,7 +54,10 @@ Movies.mainPage = SC.Page.design({
           isHorizontalScrollerVisible: YES,
           canScrollVertical: NO,
           hasVerticalScroller: NO,
-          isVerticalScrollerVisible: NO
+          isVerticalScrollerVisible: NO,
+
+          alwaysBounceVertical: NO,
+          alwaysBounceHorizontal: YES
       }) // end titlesScrollView
     }) // end titlesView
   }) // end mainPane
@@ -60,7 +68,9 @@ Movies.titlesCollectionView = SC.TemplateCollectionView.extend({
     contentBinding: 'Movies.titlesController'
 }); // end titlesCollectionView
 
-Movies.previewImageView = SC.View.extend({
+Movies.previewImageView = SC.View.extend(SC.Gesturable, {
+
+    gestures:[SC.TapGesture],
 
     uri: null,
 
@@ -69,13 +79,12 @@ Movies.previewImageView = SC.View.extend({
     classNames: ["video-preview"],
 
     // This view expects a video URL and preview image URL.
-    displayProperties: ["previewUrl", "videoUrl"],
+    displayProperties: ["title"],
 
     render: function(context) {
 		sc_super();
-
         // Add href attribute.
-        context.attr("src", this.get("previewUrl"));
+        context.attr("src", this.getPath("title.previewUrl"));
 
     }, // end render()
 
@@ -83,21 +92,22 @@ Movies.previewImageView = SC.View.extend({
 		sc_super();
     }, // end update()
 
-    captureTouch: function(){
-		return YES;
-	},
 
-    touchStart: function(evt) {
+    // If this player element is touched, then play the corresponding video.
+    tap: function(evt) {
+        // Tell FlowPlayer to play the video.
+        // "layerId" is the ID SproutCore assigned this view/anchor tag.
+        Movies.selectedTitleController.set("content", this.get("title"));
+        SC.Logger.log("Now playing: "+ this.getPath("title.previewUrl"));
+        Movies.selectedTitleController.play();
         return YES;
     },
 
-    // If this player element is touched, then play the corresponding video.
-    touchEnd: function(evt) {
-        // Tell FlowPlayer to play the video.
-        // "layerId" is the ID SproutCore assigned this view/anchor tag.
-        $f(this.get("a.video-player")).play(this.get("videoUrl"));
-        return YES;
+    mouseUp: function(evt){
+        return this.tap(evt);
     }
+
+
 });
 
 Movies.VideoPlayer = SC.View.extend({
@@ -150,10 +160,6 @@ Movies.VideoPlayer = SC.View.extend({
         this.$().attr("href", this.get("videoUrl"));
     }, // end update()
 
-    captureTouch: function(){
-		return YES;
-	},
-
     touchStart: function(evt) {
         return YES;
     },
@@ -162,7 +168,8 @@ Movies.VideoPlayer = SC.View.extend({
     touchEnd: function(evt) {
         // Tell FlowPlayer to play the video.
         // "layerId" is the ID SproutCore assigned this view/anchor tag.
-        $f(this.get("a.video-player")).play();
+        Movies.selectedTitleController(this.get("content"));
+        $f(0).play();
         return YES;
     }
 }); // end VideoPlayer

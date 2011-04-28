@@ -15,7 +15,7 @@
 }
 
 .video-list {
-    width: 5000px;
+    width: 4000px;
     height: 180px;
 }
 
@@ -42,7 +42,8 @@
     height: 381px;
     text-align: center;
     background-color: #888;
-    margin-left: 17%;
-    margin-right: 10%;
-    margin-top: 5%;
+}
+
+.video-player img {
+    margin-top:120px;
 }
